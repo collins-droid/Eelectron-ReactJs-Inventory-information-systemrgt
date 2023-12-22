@@ -4,13 +4,14 @@ import firestore from '@firebase/firestore';
 
 const settings = { timestampsInSnapshots: true };
 const firebaseConfig = {
-  apiKey: 'AIzaSyCiGjCcaVFRHRqxPpkpBBnr9wT8DC-tpGI',
-  authDomain: 'electronapp-60892.firebaseapp.com',
-  databaseURL: 'https://electronapp-60892.firebaseio.com',
-  projectId: 'electronapp-60892',
-  storageBucket: '',
-  messagingSenderId: '12591953153',
-  appId: '1:12591953153:web:83a3888d0f593399',
+  apiKey: "AIzaSyDtnN_1k9zWd4FTcM5jwV8qxYkWTwx44Iw",
+  authDomain: "katool-4b5eb.firebaseapp.com",
+  databaseURL: "https://katool-4b5eb-default-rtdb.firebaseio.com",
+  projectId: "katool-4b5eb",
+  storageBucket: "katool-4b5eb.appspot.com",
+  messagingSenderId: "878196130482",
+  appId: "1:878196130482:web:fb10f0c4f0403962b63fab",
+  measurementId: "G-W3HHHWDBNC"
 };
 const firebaseapp = firebase.initializeApp(firebaseConfig);
 
